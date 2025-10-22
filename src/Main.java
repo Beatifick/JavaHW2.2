@@ -5,7 +5,7 @@ public class Main {
         int refill = 2200;
         int bonus;
 
-        if (refill >= 1000) {
+        if (refill > 1000) {
             bonus = refill / 100;
             System.out.println("Полученный бонус = " + bonus);
             System.out.println("В кошельке: " + (wallet + refill + bonus));
